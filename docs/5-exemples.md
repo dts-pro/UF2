@@ -20,6 +20,7 @@ Fi
 **Diagrama de flux**:
 
 ```mermaid
+
  graph TD;
     A((Inici)) --> B[Inicialitzar CatA, CatB]:::rectangle;
     B --> C[/Llegir CatA, CatB/]:::romboide;
