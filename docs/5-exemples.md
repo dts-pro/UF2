@@ -6,7 +6,8 @@
 
 **Enunciat**: Determinar la hipotenusa d'un triangle rectangle conegudes les longituds dels seus dos catets.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -17,7 +18,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 
@@ -34,11 +35,14 @@ Fi
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ### Exemple 3-2
 
 **Enunciat**: Desenvolupeu un algorisme que permeta determinar l’àrea i el volum d’un cilindre donat el seu radi (R) i altura (H).
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -50,7 +54,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
  graph TD;
@@ -66,11 +70,14 @@ Fi
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ### Exemple 3-3
 
 **Enunciat**: Realitzeu un algorisme que, a partir de proporcionar-li la velocitat d'un automòbil en quilòmetres per hora, calcule la velocitat en metres per segon.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -80,7 +87,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
  graph TD;
@@ -95,6 +102,8 @@ Fi
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 
 ## 4-1 Estructura Alternativa Simple
 
@@ -102,7 +111,8 @@ Fi
 
 **Enunciat**: Desenvolupeu un algorisme que permeta determinar si un estudiant ha aprovat en funció de la nota introduïda. Si la nota és superior o igual a 5, el sistema haurà d'indicar que l'estudiant ha aprovat.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -113,7 +123,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -126,14 +136,16 @@ graph TD;
     classDef romboide fill:#188CC4, color:white;
     classDef rombo fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
-
 ```
+
+:::
 
 ### Exemple 4-1-2
 
 **Enunciat**: Desenvolupeu un algorisme que permeta determinar si una persona és major d'edat en funció de l'edat introduïda. Si l'edat és superior o igual a 18, el sistema haurà d'indicar que la persona és major d'edat.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -144,7 +156,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -157,14 +169,16 @@ graph TD;
     classDef romboide fill:#188CC4, color:white;
     classDef rombo fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
-
 ```
+
+:::
 
 ### Exemple 4-1-3
 
 **Enunciat**: Desenvolupeu un algorisme que permeta llegir dos números i ordenar-los de menor a major.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -178,7 +192,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
  graph TD;
@@ -195,13 +209,16 @@ Fi
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ## 4-2 Estructura Alternativa Doble
 
 ### Exemple 4-2-1
 
 **Enunciat**: Desenvolupeu un algorisme que permeta determinar si una persona té febre en funció de la temperatura introduïda. Si la temperatura és superior a 37 graus, el sistema haurà d'indicar que la persona té febre; en cas contrari, indicarà que la temperatura és normal.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -214,7 +231,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -230,11 +247,14 @@ graph TD;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ### Exemple 4-2-2
 
 **Enunciat**: Desenvolupeu un algorisme que permeta determinar si un valor és positiu o negatiu. Si el valor introduït és igual o major que 0, el sistema indicarà que és positiu; en cas contrari, indicarà que és negatiu.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -247,7 +267,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -263,11 +283,14 @@ graph TD;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ### Exemple 4-2-3
 
 **Enunciat**: Desenvolupeu un algorisme que permeta llegir dos valors diferents, determinar quin dels dos valors és el major i escriure’l.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -282,7 +305,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
  graph TD;
@@ -300,11 +323,14 @@ Fi
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ### Exemple 4-2-4
 
 **Enunciat**: Desenvolupeu un algorisme que permeta llegir un valor qualsevol N i escriure si aquest número és parell o senar.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -317,7 +343,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
  graph TD;
@@ -334,13 +360,16 @@ Fi
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ## 4-3 Concatenació de sentències condicionales
 
 ### Exemple 4-3-1
 
 **Enunciat**: Desenvolupeu un algorisme que permeta classificar una persona segons la seua edat. Si la persona té menys de 12 anys, es classificarà com a "Infantil". Si té entre 12 i 18 anys (ambdós inclosos), es classificarà com a "Adolescent". Si té més de 18 anys, es classificarà com a "Adult".
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -355,7 +384,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -374,11 +403,14 @@ graph TD;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ### Exemple 4-3-2
 
 **Enunciat**: Desenvolupeu un algorisme que permeta classificar una nota segons la seua puntuació. Si la nota és 9 o superior, es considerarà "Excel·lent". Si és entre 7 i 8, es classificarà com a "Notable". Si és entre 5 i 6, serà "Aprovat". Si és inferior a 5, serà "Suspès".
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -395,7 +427,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -417,11 +449,14 @@ graph TD;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ### Exemple 4-3-3
 
 **Enunciat**: Desenvolupeu un algorisme que permeta llegir tres valors i emmagatzemar-los en les variables A, B i C respectivament. L'algorisme ha d'imprimir quin és el major i quin és el menor. Els tres valors han de ser diferents.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -437,7 +472,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
  graph TD;
@@ -457,11 +492,14 @@ Fi
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ### Exemple 4-3-4
 
 **Enunciat**: Desenvolupeu un algorisme que permeta convertir qualificacions numèriques segons la següent taula: A = 19 i 20, B = 16, 17 i 18, C = 13, 14 i 15, D = 10, 11 i 12, E = 1 fins al 9.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -480,7 +518,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
  graph TD;
@@ -507,13 +545,16 @@ Fi
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ## 4-4 Estructura Alternativa Múltiple (Switch)
 
 ### Exemple 4-4-1
 
 **Enunciat**: Desenvolupeu un algorisme que, donat un número entre 1 i 7, escriga el nom del dia de la setmana corresponent. Si el valor no es troba entre 1 i 7, s'ha de mostrar "Dia no vàlid".
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -531,7 +572,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -557,14 +598,16 @@ graph TD;
     classDef romboide fill:#188CC4, color:white;
     classDef rombo fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
-
 ```
+
+:::
 
 ### Exemple 4-4-2
 
 **Enunciat**: Desenvolupeu un algorisme que, donat un número entre 1 i 12 que representa un mes, escriga l'estació de l'any corresponent. Si el valor no es troba entre 1 i 12, s'ha de mostrar "Mes no vàlid".
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -579,7 +622,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -601,13 +644,16 @@ graph TD;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ## 4-5 Estructura Mentre (WHILE)
 
 ### Exemple 4-5-1
 
 **Enunciat**: Desenvolupeu un algorisme que mostri els nombres del 1 al 10. Utilitzeu una estructura de bucle per a incrementar un comptador i mostrar el seu valor en cada iteració.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -619,7 +665,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -635,11 +681,14 @@ graph TD;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ### Exemple 4-5-2
 
 **Enunciat**: Desenvolupeu un algorisme que demani una contrasenya i mostri un missatge d'error fins que s'introdueixi la contrasenya correcta, que en aquest cas serà "1234".
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -652,7 +701,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -669,11 +718,14 @@ graph TD;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ### Exemple 4-5-3
 
 **Enunciat**: Desenvolupeu un algorisme que permeta llegir un valor enter positiu N i determinar si és primer o no.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -693,7 +745,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
  graph TD;
@@ -717,11 +769,14 @@ Fi
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ### Exemple 4-5-4
 
 **Enunciat**: Desenvolupeu un algorisme que permeta convertir un número de dies en anys, mesos, setmanes i dies.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -744,7 +799,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
   graph TD;
@@ -769,13 +824,16 @@ Fi
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ## 4-6 Estructura Fins que (DO-WHILE)
 
 ### Exemple 4-6-1
 
 **Enunciat**: Desenvolupeu un algorisme que demani a l'usuari un número i l'escrigui. Això es repetirà fins que l'usuari introdueixi un número igual a 0.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -786,7 +844,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -801,11 +859,14 @@ graph TD;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ### Exemple 4-6-2
 
 **Enunciat**: Desenvolupeu un algorisme que demani a l'usuari un número major o igual a 18. Això es repetirà fins que l'usuari escriga un número que complisca la condició.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -816,7 +877,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -831,13 +892,16 @@ graph TD;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ## 4-7 Estructura Per (FOR)
 
 ### Exemple 4-7-1
 
 **Enunciat**: Desenvolupeu un algorisme que imprimeixi els números de l'1 al 10 utilitzant un bucle per.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -847,7 +911,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -863,11 +927,14 @@ graph TD;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ### Exemple 4-7-2
 
 **Enunciat**: Desenvolupeu un algorisme que realitzi una compte enrere des de 30 fins a 1 abans del llançament d'un cohet. Al final, imprimir un missatge de llançament.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -879,7 +946,7 @@ Fi
 
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -896,11 +963,14 @@ graph TD;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ### Exemple 4-7-3
 
 **Enunciat**: Desenvolupar un algorisme que calculi l'estalvi total al final de l'any, partint d'un salari mensual fix i augmentant el percentatge d'estalvi en 1% cada mes. El primer mes l'estalvi és l'1% del salari, el segon mes el 2%, i així successivament fins al 12è mes.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -914,7 +984,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -932,6 +1002,8 @@ graph TD;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ## 4-8 Elements Auxiliars (Contadors, Acumuladors, Interruptors)
 
 ### Exemple amb Contador
@@ -942,7 +1014,8 @@ graph TD;
 - Cartes 7 a 9: 0
 - Cartes 10, J, Q, K, A: -1
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -963,7 +1036,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -987,11 +1060,14 @@ graph TD;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ### Exemple amb Acumulador
 
 **Enunciat**: Desenvolupeu un algorisme que permeti sumar tres nombres introduïts pel usuari i mostrar el resultat.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -1004,7 +1080,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -1021,11 +1097,14 @@ graph TD;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ### Exemple amb Interruptor
 
 **Enunciat**: Desenvolupeu un algorisme que permeta determinar si un estudiant ha aprovat o suspès en funció de la nota introduïda, utilitzant un interruptor per gestionar si l'estudiant ha lliurat el projecte final.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -1043,7 +1122,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -1063,11 +1142,14 @@ graph TD;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ### Exemple amb Contador i Acumulador
 
 **Enunciat**: Desenvolupeu un algorisme que permeta calcular la mitjana de diverses notes, finalitzant quan N = 0.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -1085,7 +1167,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
  graph TD;
@@ -1107,11 +1189,14 @@ Fi
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
+:::
+
 ### Exemple amb Contador, Acumulador i Interruptor
 
 **Enunciat**: Desenvolupeu un algorisme que demane introduir 5 valors i calcule la suma total només si s'ha activat l'interruptor de "calcular", mostrant el nombre d'operacions realitzades.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici 
@@ -1131,7 +1216,7 @@ Inici
 Fi 
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
 graph TD;
@@ -1154,11 +1239,12 @@ graph TD;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
-
+:::
 
 **Enunciat**: Desenvolupeu un algorisme que permeta calcular la nòmina de 50 obrers qualificats, considerant que l'hora treballada es paga a 30.000 euros.
 
-**Pseudocodi**:
+::: tabs
+== Pseudocodi
 
 ```
 Inici
@@ -1173,7 +1259,7 @@ Inici
 Fi
 ```
 
-**Diagrama de flux**:
+== Diagrama de flux
 
 ```mermaid
  graph TD;
@@ -1192,3 +1278,5 @@ Fi
     classDef rectangle fill:#43BA43, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
+
+:::

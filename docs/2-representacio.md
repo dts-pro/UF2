@@ -8,7 +8,7 @@ També és possible tindre una representació més visual, utilitzant metodologi
 
 El pseudocodi és una tècnica que permet representar els passos d'un algorisme utilitzant un llenguatge més proper al natural, sense estar limitat per la sintaxi estricta d'un llenguatge de programació.
 
-### 2.1.1 Característiques del pseudocodi
+**Característiques del pseudocodi**
 
 - Utilitza paraules i frases en lloc d'instruccions de codi.
 - Permet descriure de manera clara i concisa els passos a seguir.
@@ -19,14 +19,14 @@ El pseudocodi és una tècnica que permet representar els passos d'un algorisme 
 
 Un diagrama de flux és una representació gràfica d'un algorisme o procés. Utilitza símbols estandarditzats per a il·lustrar els passos o etapes del procés i el flux d'execució mitjançant fletxes que connecten aquests elements.
 
-### 2.2.1 Importància dels Diagrames de Flux
+### 2.2.1 Importància dels diagrames de flux
 
 - **Visualització clara**: Permeten entendre ràpidament la lògica d'un algorisme.
 - **Comunicació efectiva**: Faciliten l'explicació de processos a altres programadors o stakeholders.
 - **Planificació**: Ajuden a identificar possibles problemes o ineficiències abans de començar a codificar.
 - **Documentació**: Serveixen com a referència visual per al manteniment i millora del codi.
 
-## 2.2.2 Eines per a la Creació de Diagrames de Flux
+### 2.2.2 Eines per a la creació de diagrames de flux
 
 Existeixen diverses eines que faciliten la creació de diagrames de flux. Algunes de les més populars són:
 
@@ -42,7 +42,7 @@ Existeixen diverses eines que faciliten la creació de diagrames de flux. Algune
 
 Entre aquestes opcions, draw.io destaca per la seua accessibilitat i facilitat d'ús, sent una excel·lent opció per a principiants i professionals per igual.
 
-### 2.2.3 Creació de Diagrames de Flux amb draw.io
+### 2.2.3 Creació de diagrames de flux amb draw.io
 
 Draw.io (ara també conegut com diagrams.net) és una eina gratuïta i fàcil d'usar per a crear diagrames de flux:
 

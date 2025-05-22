@@ -21,11 +21,12 @@ L'**estructura alternativa simple** s'utilitza quan hi ha una única condició q
 >
 > Imaginem un programa que determina si una persona pot rebre un descompte en una botiga. Si la persona té una targeta de fidelitat, s'aplica un descompte del 10% en la compra. Si no té la targeta, no s'aplica cap descompte.
 >
-> ***Pseudocodi:***
->
 > - **Dades d'entrada**: Informació sobre el cost total de la compra i si el client té una targeta de fidelitat.
 > - **Dada d'eixida**: Cost total aplicant o no el descompte.
 > - **Procediment**:
+>
+>::: tabs
+>== Pseudocodi
 >
 > ```plaintext
 > INICI
@@ -40,7 +41,7 @@ L'**estructura alternativa simple** s'utilitza quan hi ha una única condició q
 > FI
 > ```
 >
-> ***Exemple: Diagrama de flux d'estructura alternativa simple***
+>== Diagrama de flux
 >
 >```mermaid
 >graph TD
@@ -65,6 +66,7 @@ L'**estructura alternativa simple** s'utilitza quan hi ha una única condició q
 >    class A,J inici_fi
 >```
 >
+>:::
 > Aquest exemple mostra com una estructura alternativa simple pot usar-se per a decidir si s'aplica un descompte basat en una condició específica.
 
 ### 4.1.2 Estructura Alternativa Doble
@@ -75,11 +77,12 @@ L'**estructura alternativa doble** permet executar diferents conjunts d'instrucc
 >
 > Imaginem un programa que determina quin descompte pot rebre una persona en una botiga en rebaixes. Si la persona té una targeta de fidelitat, s'aplica un descompte del 20% en la compra. Si no té la targeta, s'aplicarà un descompte del 10%.
 >
-> ***Pseudocodi:***
->
 > - **Dades d'entrada**: Informació sobre el cost total de la compra i si el client té una targeta de fidelitat.
 > - **Dada d'eixida**: Cost total aplicant o no el descompte.
 > - **Procediment**:
+>
+>::: tabs
+>==Pseudocodi
 >
 > ```plaintext
 > INICI
@@ -96,7 +99,7 @@ L'**estructura alternativa doble** permet executar diferents conjunts d'instrucc
 > FI
 > ```
 >
-> ***Exemple: Diagrama de flux d'estructura alternativa doble***
+>== Diagrama de flux
 >
 >```mermaid
 >graph TD
@@ -121,21 +124,23 @@ L'**estructura alternativa doble** permet executar diferents conjunts d'instrucc
 >    class A,J inici_fi
 >```
 >
+>:::
 > Aquest exemple il·lustra com una estructura alternativa doble pot manejar dos escenaris diferents basats en una condició.
 
 ### 4.1.3 Concatenació de sentències condicionals
 
 En moltes ocasions és possible trobar-nos amb algoritmes que compten amb múltiples condicions consecutives.
 
-> ***Exemple: Classificació d'empleats***
+> ***Exemple: classificació d'empleats***
 >
 > Imaginem un programa que classifica el nivell d'un empleat basat en tres puntuacions d'avaluació anual. Depenent del rang de la puntuació, l'empleat pot ser classificat com a "Satisfactori", "Bo" o "Excel·lent".
->
-> ***Pseudocodi:***
 >
 > - **Dades d'entrada**: Puntuacions d'avaluació de l'empleat.
 > - **Dada d'eixida**: Classificació de l'empleat.
 > - **Procediment**:
+>
+>::: tabs
+>== Pseudocodi
 >
 > ```plaintext
 > INICI
@@ -157,7 +162,7 @@ En moltes ocasions és possible trobar-nos amb algoritmes que compten amb múlti
 > FI
 > ```
 >
-> ***Exemple: Diagrama de flux de concatenació de sentències condicionals***
+>== Diagrama de flux
 >
 >```mermaid
 >graph TD
@@ -191,6 +196,7 @@ En moltes ocasions és possible trobar-nos amb algoritmes que compten amb múlti
 >    class I,K,M rombo;
 >```
 >
+>:::
 > Aquest exemple demostra com manejar diversos escenaris basats en diferents rangs de valors.
 
 ### 4.1.4 Estructura Alternativa Múltiple
@@ -201,11 +207,12 @@ L'**estructura alternativa múltiple** permet que s'executen diferents conjunts 
 >
 > Imaginem un programa que premia a un corredor depenent del lloc obtingut en la carrera. El premi s'obté a partir del 5è lloc i es premia amb 10.000€ al 5è, 12.000€ al 4t, 15.000€ al 3r, 17.500€ al 2n i 20.000€ al 1r. La resta de posicions no obtenen premi per la qual cosa obtindran 0€.
 >
-> ***Pseudocodi:***
->
 > - **Dades d'entrada**: Posició en la carrera.
 > - **Dada d'eixida**: Premi obtingut.
 > - **Procediment**:
+>
+>::: tabs
+>== Pseudocodi
 >
 > ```plaintext
 > INICI
@@ -228,7 +235,7 @@ L'**estructura alternativa múltiple** permet que s'executen diferents conjunts 
 > FI
 > ```
 >
-> ***Exemple: Diagrama de flux d'estructura alternativa múltiple***
+>== Diagrama de flux
 >
 >```mermaid
 >   graph TD
@@ -260,6 +267,7 @@ L'**estructura alternativa múltiple** permet que s'executen diferents conjunts 
 >       class D rombo;
 >```
 >
+>:::
 > Aquest exemple demostra com una estructura alternativa múltiple pot manejar diversos escenaris basats en diferents valors concrets.
 
 ## 4.2 Estructures Repetitives
@@ -270,8 +278,6 @@ Les estructures repetitives o bucles permeten repetir una seqüència d'instrucc
 
 L'estructura **Mentre** (WHILE) s'utilitza per a repetir un bloc d'instruccions mentre es complisca una condició específica. La condició s'avalua abans de cada iteració del bucle, per la qual cosa si la condició mai es torna falsa, el bucle pot continuar indefinidament, la qual cosa es denomina bucle infinit.
 
-**Pseudocodi**:
-
 ```plaintext
 MENTRE Condició
     Instrucció 1
@@ -281,15 +287,16 @@ MENTRE Condició
 FI MENTRE
 ```
 
-> ***Exemple: Compte enrere***
+> ***Exemple: compte enrere***
 >
 > Suposem que volem comptar cap avall des d'un nombre donat fins a arribar a 0. L'algorisme s'executarà mentre el nombre siga major que 0.
->
-> ***Pseudocodi:***
 >
 > - **Dades d'entrada**: Nombre de segons.
 > - **Dada d'eixida**: Seqüència de nombres en compte enrere.
 > - **Procediment**:
+>
+>::: tabs
+>== Pseudocodi
 >
 > ```plaintext
 > INICI
@@ -302,7 +309,7 @@ FI MENTRE
 > FI
 > ```
 >
-> ***Exemple: Diagrama de flux d'estructura mentre***
+>== Diagrama de flux
 >
 >```mermaid
 >graph TD
@@ -326,13 +333,12 @@ FI MENTRE
 >
 >```
 >
+>:::
 > Aquest exemple mostra com es pot utilitzar un bucle WHILE per a realitzar un compte enrere des d'un nombre donat fins a arribar a 0.
 
 ## 4.2.2 Estructura Fins (DO-WHILE)
 
 L'estructura **Fins** (DO-WHILE) garanteix que el bloc d'instruccions s'execute almenys una vegada abans d'avaluar la condició. La condició es revisa després de l'execució del bloc, cosa que assegura que el bloc s'execute almenys una vegada encara que la condició siga falsa en la primera avaluació.
-
-**Pseudocodi**:
 
 ```plaintext
 REPETIR
@@ -343,15 +349,16 @@ REPETIR
 MENTRE Condició
 ```
 
-> ***Exemple: Sol·licitar número positiu***
+> ***Exemple: sol·licitar número positiu***
 >
 > Imaginem un programa que sol·licita a l'usuari introduir un número positiu. El programa ha de continuar demanant un número fins que l'usuari introduïsca un número positiu.
->
-> ***Pseudocodi:***
 >
 > - **Dades d'entrada**: Números introduïts per l'usuari.
 > - **Dada d'eixida**: Número positiu introduït.
 > - **Procediment**:
+>
+>::: tabs
+>== Pseudocodi
 >
 > ```plaintext
 > INICI
@@ -363,7 +370,7 @@ MENTRE Condició
 > FI
 > ```
 >
-> ***Exemple: Diagrama de flux d'estructura fins***
+>== Diagrama de flux
 >
 >```mermaid
 >graph TD
@@ -385,6 +392,7 @@ MENTRE Condició
 >
 >```
 >
+>:::
 > Aquest exemple il·lustra com es pot utilitzar un bucle DO-WHILE per assegurar que l'usuari introduïsca un número positiu, repetint la sol·licitud fins que es complisca la condició.
 
 ## 4.2.3 Estructura Per a (FOR)
@@ -397,8 +405,6 @@ L'estructura **Per a** (FOR) s'usa quan es coneix de bestreta el nombre d'iterac
 2. La condició del bucle s'avalua comparant la variable comptadora amb un valor final.
 3. En cada iteració, la variable comptadora s'incrementa en un valor específic.
 
-**Pseudocodi**:
-
 ```plaintext
 PER A Var_Comp DE ValorInicial A ValorFinal AMB INCREMENT = n
     Instrucció 1
@@ -408,15 +414,16 @@ PER A Var_Comp DE ValorInicial A ValorFinal AMB INCREMENT = n
 FI PER A
 ```
 
-> ***Exemple: Imprimir números del 1 al 5***
+> ***Exemple: imprimir números del 1 al 5***
 >
 > Suposem que volem imprimir els números de l'1 al 5. Utilitzem un bucle FOR per iterar des de l'1 fins al 5.
->
-> ***Pseudocodi:***
 >
 > - **Dades d'entrada**: Cap.
 > - **Dada d'eixida**: Números de l'1 al 5.
 > - **Procediment**:
+>
+>::: tabs
+>== Pseudocodi
 >
 > ```plaintext
 > INICI
@@ -426,13 +433,8 @@ FI PER A
 > FI
 > ```
 >
-> **Explicació**:
 >
-> 1. S'inicialitza la variable `i` en 1.
-> 2. S'imprimeix el valor de `i`.
-> 3. S'incrementa `i` en 1 i el procés es repeteix fins que `i` siga 6.
->
-> ***Exemple: Diagrama de flux d'estructura fins***
+>== Diagrama de flux
 >
 >```mermaid
 > graph TD
@@ -453,6 +455,14 @@ FI PER A
 >     class B,E rectangle;
 >     class C rombo;
 >```
+>
+>:::
+>
+> **Explicació**:
+>
+> 1. S'inicialitza la variable `i` en 1.
+> 2. S'imprimeix el valor de `i`.
+> 3. S'incrementa `i` en 1 i el procés es repeteix fins que `i` siga 6.
 >
 > Aquest exemple demostra com es pot utilitzar un bucle FOR per imprimir una seqüència de números, en aquest cas, de l'1 al 5.
 
@@ -482,11 +492,12 @@ En el següent exemple es pot veure l'ús dels diferents elements auxiliars desc
 >
 > Suposem que volem dissenyar un algorisme que permeta a l'usuari introduir les notes d'un estudiant i calcular la mitjana d'aquestes notes fins que l'usuari decidisca acabar.
 >
-> ***Pseudocodi:***
->
 > - **Dades d'entrada**: Notes introduïdes per l'usuari.
 > - **Dada d'eixida**: Mitjana de les notes.
 > - **Procediment**:
+>
+>::: tabs
+>== Pseudocodi
 >
 > ```plaintext
 > INICI
@@ -509,7 +520,7 @@ En el següent exemple es pot veure l'ús dels diferents elements auxiliars desc
 > FI
 > ```
 >
-> ***Exemple: Diagrama de flux d'ús d'elements auxiliars***
+>== Diagrama de flux
 >
 >```mermaid
 > graph TD
@@ -539,9 +550,9 @@ En el següent exemple es pot veure l'ús dels diferents elements auxiliars desc
 >     class D,E,H,I,M,O romboide;
 >     class B,C,F,G,L rectangle;
 >     class J,K rombo;
-> 
-> 
 >```
+>
+>:::
 >
 > - Aquest exemple demostra com es pot utilitzar un comptador per portar un registre del nombre de vegades que s'ha complit la condició desitjada, d'aquesta manera podrà calcular la mitjana de notes.
 > - A més, compta amb un acumulador que anirà sumant les notes de l'alumne concret.
