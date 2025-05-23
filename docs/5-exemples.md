@@ -30,7 +30,7 @@ Fi
     E --> F((Fi)):::inici_fi;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef rectangle fill:#43BA43, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
@@ -65,7 +65,7 @@ Fi
     E --> F((Fi)):::inici_fi;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef rectangle fill:#43BA43, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
@@ -97,7 +97,7 @@ Fi
     D --> E((Fi)):::inici_fi;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef rectangle fill:#43BA43, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
@@ -128,13 +128,13 @@ Fi
 ```mermaid
 graph TD;
     A((Inici)) --> B[/Llegir nota/]:::romboide;
-    B --> C{Nota >= 5}:::rombo;
+    B --> C{Nota >= 5}:::rombe;
     C -->|Sí| D[/Escriure "Aprovat"/]:::romboide;
     C -->|No| E((Fi)):::inici_fi;
     D --> E;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
@@ -161,13 +161,13 @@ Fi
 ```mermaid
 graph TD;
     A((Inici)) --> B[/Llegir edat/]:::romboide;
-    B --> C{Edat >= 18}:::rombo;
+    B --> C{Edat >= 18}:::rombe;
     C -->|Sí| D[/Escriure "És major d'edat"/]:::romboide;
     C -->|No| E((Fi)):::inici_fi;
     D --> E;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
@@ -197,14 +197,14 @@ Fi
 ```mermaid
  graph TD;
     A((Inici)) --> B[/Llegir A, B/]:::romboide;
-    B --> C{A > B}:::rombo;
+    B --> C{A > B}:::rombe;
     C -->|Sí| D[Temporal = A, A = B, B = Temporal]:::rectangle;
     D --> E[/Escriure "Ordre:", A, B/]:::romboide;
     C -->|No| E;
     E --> F((Fi)):::inici_fi;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef rectangle fill:#43BA43, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
@@ -236,14 +236,14 @@ Fi
 ```mermaid
 graph TD;
     A((Inici)) --> B[/Llegir temperatura/]:::romboide;
-    B --> C{Temperatura > 37}:::rombo;
+    B --> C{Temperatura > 37}:::rombe;
     C -->|Sí| D[/Escriure "Febre"/]:::romboide;
     C -->|No| E[/Escriure "Temperatura normal"/]:::romboide;
     D --> F((Fi)):::inici_fi;
     E --> F;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
@@ -272,14 +272,14 @@ Fi
 ```mermaid
 graph TD;
     A((Inici)) --> B[/Llegir valor/]:::romboide;
-    B --> C{Valor >= 0}:::rombo;
+    B --> C{Valor >= 0}:::rombe;
     C -->|Sí| D[/Escriure "És positiu"/]:::romboide;
     C -->|No| E[/Escriure "És negatiu"/]:::romboide;
     D --> F((Fi)):::inici_fi;
     E --> F;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
@@ -311,14 +311,14 @@ Fi
  graph TD;
     A((Inici)) --> B[Inicialitzar A i B]:::rectangle;
     B --> C[/Llegir A i B/]:::romboide;
-    C -->E{A > B}:::rombo;
+    C -->E{A > B}:::rombe;
     E -->|Sí| F[/Escriure A "és el major"/]:::romboide;
     E -->|No| G[/Escriure B "és el major"/]:::romboide;
     F --> H((Fi)):::inici_fi;
     G --> H;
     
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef rectangle fill:#43BA43, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
@@ -348,14 +348,14 @@ Fi
 ```mermaid
  graph TD;
     A((Inici)) --> B[/Llegir N/]:::romboide;
-    B --> C{N % 2 = 0}:::rombo;
+    B --> C{N % 2 = 0}:::rombe;
     C -->|Sí| D[/Escriure "És parell"/]:::romboide;
     C -->|No| E[/Escriure "És senar"/]:::romboide;
     D --> F((Fi)):::inici_fi;
     E --> F;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef rectangle fill:#43BA43, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
@@ -389,9 +389,9 @@ Fi
 ```mermaid
 graph TD;
     A((Inici)) --> B[/Llegir edat/]:::romboide;
-    B --> C{Edat < 12}:::rombo;
+    B --> C{Edat < 12}:::rombe;
     C -->|Sí| D[/Escriure "Infantil"/]:::romboide;
-    C -->|No| E{Edat <= 18}:::rombo;
+    C -->|No| E{Edat <= 18}:::rombe;
     E -->|Sí| F[/Escriure "Adolescent"/]:::romboide;
     E -->|No| G[/Escriure "Adult"/]:::romboide;
     D --> H((Fi)):::inici_fi;
@@ -399,7 +399,7 @@ graph TD;
     G --> H;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
@@ -432,11 +432,11 @@ Fi
 ```mermaid
 graph TD;
     A((Inici)) --> B[/Llegir nota/]:::romboide;
-    B --> C{Nota >= 9}:::rombo;
+    B --> C{Nota >= 9}:::rombe;
     C -->|Sí| D[/Escriure "Excel·lent"/]:::romboide;
-    C -->|No| E{Nota >= 7}:::rombo;
+    C -->|No| E{Nota >= 7}:::rombe;
     E -->|Sí| F[/Escriure "Notable"/]:::romboide;
-    E -->|No| G{Nota >= 5}:::rombo;
+    E -->|No| G{Nota >= 5}:::rombe;
     G -->|Sí| H[/Escriure "Aprovat"/]:::romboide;
     G -->|No| I[/Escriure "Suspès"/]:::romboide;
     D --> J((Fi)):::inici_fi;
@@ -445,7 +445,7 @@ graph TD;
     I --> J;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
@@ -477,9 +477,9 @@ Fi
 ```mermaid
  graph TD;
     A((Inici)) --> B[/Llegir A, B, C/]:::romboide;
-    B --> C{A > B i A > C}:::rombo;
+    B --> C{A > B i A > C}:::rombe;
     C -->|Sí| D[/Escriure A "és el major"/]:::romboide;
-    C -->|No| E{B > A i B > C}:::rombo;
+    C -->|No| E{B > A i B > C}:::rombe;
     E -->|Sí| F[/Escriure B "és el major"/]:::romboide;
     E -->|No| G[/Escriure C "és el major"/]:::romboide;
     D --> H((Fi)):::inici_fi;
@@ -487,7 +487,7 @@ Fi
     G --> H;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef rectangle fill:#43BA43, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
@@ -523,15 +523,15 @@ Fi
 ```mermaid
  graph TD;
     A((Inici)) --> B[/Llegir Nota/]:::romboide;
-    B --> C{Nota >= 19 i <= 20}:::rombo;
+    B --> C{Nota >= 19 i <= 20}:::rombe;
     C -->|Sí| D[/Escriure "A"/]:::romboide;
-    C -->|No| E{Nota >= 16 i <= 18}:::rombo;
+    C -->|No| E{Nota >= 16 i <= 18}:::rombe;
     E -->|Sí| F[/Escriure "B"/]:::romboide;
-    E -->|No| G{Nota >= 13 i <= 15}:::rombo;
+    E -->|No| G{Nota >= 13 i <= 15}:::rombe;
     G -->|Sí| H[/Escriure "C"/]:::romboide;
-    G -->|No| I{Nota >= 10 i <= 12}:::rombo;
+    G -->|No| I{Nota >= 10 i <= 12}:::rombe;
     I -->|Sí| J[/Escriure "D"/]:::romboide;
-    I -->|No| K{Nota >= 1 i <= 9}:::rombo;
+    I -->|No| K{Nota >= 1 i <= 9}:::rombe;
     K -->|Sí| L[/Escriure "E"/]:::romboide;
     D --> M((Fi)):::inici_fi;
     F --> M;
@@ -540,7 +540,7 @@ Fi
     L --> M;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef rectangle fill:#43BA43, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
@@ -577,7 +577,7 @@ Fi
 ```mermaid
 graph TD;
     A((Inici)) --> B[/Llegir dia_setmana/]:::romboide;
-    B --> C{"Segons (dia_setmana)"}:::rombo;
+    B --> C{"Segons (dia_setmana)"}:::rombe;
     C -->|1| D[/Escriure "Dilluns"/]:::romboide;
     C -->|2| E[/Escriure "Dimarts"/]:::romboide;
     C -->|3| F[/Escriure "Dimecres"/]:::romboide;
@@ -596,7 +596,7 @@ graph TD;
     K --> L;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
@@ -627,7 +627,7 @@ Fi
 ```mermaid
 graph TD;
     A((Inici)) --> B[/Llegir mes/]:::romboide;
-    B --> C{"Segons (mes)"}:::rombo;
+    B --> C{"Segons (mes)"}:::rombe;
     C -->|12, 1, 2| D[/Escriure "Hivern"/]:::romboide;
     C -->|3, 4, 5| E[/Escriure "Primavera"/]:::romboide;
     C -->|6, 7, 8| F[/Escriure "Estiu"/]:::romboide;
@@ -640,7 +640,7 @@ graph TD;
     H --> I;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
@@ -670,14 +670,14 @@ Fi
 ```mermaid
 graph TD;
     A((Inici)) --> B[Inicialitzar N = 1]:::romboide;
-    B --> C{N <= 10}:::rombo;
+    B --> C{N <= 10}:::rombe;
     C -->|Sí| D[Escriure N]:::romboide;
     D --> E[N = N + 1]:::romboide;
     E --> C;
     C -->|No| F((Fi)):::inici_fi;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
@@ -706,7 +706,7 @@ Fi
 ```mermaid
 graph TD;
     A((Inici)) --> B[Llegir contrasenya]:::romboide;
-    B --> C{"contrasenya != '1234'"}:::rombo;
+    B --> C{"contrasenya != '1234'"}:::rombe;
     C -->|Sí| D[Escriure 'Contrasenya incorrecta']:::romboide;
     D --> E[Llegir contrasenya]:::romboide;
     E --> C;
@@ -714,7 +714,7 @@ graph TD;
     F --> G((Fi)):::inici_fi;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
@@ -751,20 +751,20 @@ Fi
  graph TD;
     A((Inici)) --> B[/Llegir N/]:::romboide;
     B --> C[Inicialitzar J = 2, S = 0]:::rectangle;
-    C --> D{J <= N / 2}:::rombo;
-    D -->|Sí| E{N % J = 0}:::rombo;
+    C --> D{J <= N / 2}:::rombe;
+    D -->|Sí| E{N % J = 0}:::rombe;
     E -->|Sí| F[S = S + 1]:::rectangle;
     E -->|No| G[J = J + 1]:::rectangle;
     F --> G;
     G --> D;
-    D -->|No| H{S = 0}:::rombo;
+    D -->|No| H{S = 0}:::rombe;
     H -->|Sí| I[/Escriure N, "és primer"/]:::romboide;
     H -->|No| J[/Escriure N, "no és primer"/]:::romboide;
     I --> K((Fi)):::inici_fi;
     J --> K;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef rectangle fill:#43BA43, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
@@ -805,13 +805,13 @@ Fi
   graph TD;
     A((Inici)) --> B[/Llegir NumDies/]:::romboide;
     B --> C[Inicialitzar Anys, Mesos, Setmanes, Dies]:::rectangle;
-    C --> D{NumDies >= 365}:::rombo;
+    C --> D{NumDies >= 365}:::rombe;
     D -->|Sí| E[Anys = Anys + 1, NumDies = NumDies - 365]:::rectangle;
     E --> D;
-    D -->|No| F{NumDies >= 30}:::rombo;
+    D -->|No| F{NumDies >= 30}:::rombe;
     F -->|Sí| G[Mesos = Mesos + 1, NumDies = NumDies - 30]:::rectangle;
     G --> F;
-    F -->|No| H{NumDies >= 7}:::rombo;
+    F -->|No| H{NumDies >= 7}:::rombe;
     H -->|Sí| I[Setmanes = Setmanes + 1, NumDies = NumDies - 7]:::rectangle;
     I --> H;
     H -->|No| J[Dies = NumDies]:::rectangle;
@@ -819,7 +819,7 @@ Fi
     K --> L((Fi)):::inici_fi;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef rectangle fill:#43BA43, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
@@ -850,12 +850,12 @@ Fi
 graph TD;
     A((Inici)) --> B[Llegir número]:::romboide;
     B --> C[Escriure número]:::romboide;
-    C --> D{número = 0}:::rombo;
+    C --> D{número = 0}:::rombe;
     D -->|No| B;
     D -->|Sí| E((Fi)):::inici_fi;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
@@ -883,12 +883,12 @@ Fi
 graph TD;
     A((Inici)) --> B[Llegir edat]:::romboide;
     B --> C[Escriure edat]:::romboide;
-    C --> D{edat >= 18}:::rombo;
+    C --> D{edat >= 18}:::rombe;
     D -->|No| B;
     D -->|Sí| E((Fi)):::inici_fi;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
@@ -916,14 +916,14 @@ Fi
 ```mermaid
 graph TD;
     A((Inici)) --> B[Inicialitzar i = 1]:::romboide;
-    B --> C{i <= 10}:::rombo;
+    B --> C{i <= 10}:::rombe;
     C -->|Sí| D[Escriure i]:::romboide;
     D --> E[Nova iteració: i = i + 1]:::romboide;
     E --> B;
     C -->|No| F((Fi)):::inici_fi;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
@@ -951,7 +951,7 @@ Fi
 ```mermaid
 graph TD;
     A((Inici)) --> B[Inicialitzar i = 10]:::romboide;
-    B --> C{i >= 1}:::rombo;
+    B --> C{i >= 1}:::rombe;
     C -->|Sí| D[Escriure 'T-minus i segons']:::romboide;
     D --> E[Nova iteració: i = i - 1]:::romboide;
     E --> B;
@@ -959,7 +959,7 @@ graph TD;
     F --> G((Fi)):::inici_fi;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
@@ -990,7 +990,7 @@ Fi
 graph TD;
     A((Inici)) --> B[Llegir salari_mensual]:::romboide;
     B --> C[Inicialitzar estalvi_total = 0]:::romboide;
-    C --> D[Per mes = 1 fins a 12 Fer]:::rombo;
+    C --> D[Per mes = 1 fins a 12 Fer]:::rombe;
     D --> E["estalvi_mes = salari_mensual * (mes / 100)"]:::romboide;
     E --> F[estalvi_total = estalvi_total + estalvi_mes]:::romboide;
     F --> D;
@@ -998,7 +998,7 @@ graph TD;
     G --> H((Fi)):::inici_fi;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
@@ -1042,12 +1042,12 @@ Fi
 graph TD;
     A((Inici)) --> B[Inicialitzar compte = 0]:::romboide;
     B --> C[Llegir carta]:::romboide;
-    C --> D{"carta = 'Atura'"}:::rombo;
+    C --> D{"carta = 'Atura'"}:::rombe;
     D -->|Sí| E["Escriure 'Compte final: ' + compte"]:::romboide;
     E --> F((Fi)):::inici_fi;
-    D -->|No| G{"carta en ['2', '3', '4', '5', '6']"}:::rombo;
+    D -->|No| G{"carta en ['2', '3', '4', '5', '6']"}:::rombe;
     G -->|Sí| H[ compte = compte + 1 ]:::romboide;
-    G -->|No| I{"carta en ['10', 'J', 'Q', 'K', 'A']"}:::rombo;
+    G -->|No| I{"carta en ['10', 'J', 'Q', 'K', 'A']"}:::rombe;
     I -->|Sí| J[ compte = compte - 1 ]:::romboide;
     I -->|No| K[Escriure 'Carta no vàlida']:::romboide;
     H --> L[Escriure 'Compte actual: ' + compte]:::romboide;
@@ -1056,7 +1056,7 @@ graph TD;
     L --> C;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
@@ -1085,7 +1085,7 @@ Fi
 ```mermaid
 graph TD;
     A((Inici)) --> B[Inicialitzar suma = 0]:::romboide;
-    B --> C[Per i = 1 fins a 3]:::rombo;
+    B --> C[Per i = 1 fins a 3]:::rombe;
     C --> D[Llegir nombre]:::romboide;
     D --> E[suma = suma + nombre]:::romboide;
     E --> C; 
@@ -1093,7 +1093,7 @@ graph TD;
     F --> G((Fi)):::inici_fi;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
 
@@ -1127,8 +1127,8 @@ Fi
 ```mermaid
 graph TD;
     A((Inici)) --> B[/Llegir Nota i Projecte lliurat/]:::romboide;
-    B --> C{Projecte = 'Sí'}:::rombo;
-    C -->|Sí| D{Nota >= 5}:::rombo;
+    B --> C{Projecte = 'Sí'}:::rombe;
+    C -->|Sí| D{Nota >= 5}:::rombe;
     D -->|Sí| E[/Escriure 'Aprovat'/]:::romboide;
     D -->|No| F[/Escriure 'Suspès'/]:::romboide;
     C -->|No| G[/Escriure 'Suspès per no lliurar el projecte'/]:::romboide;
@@ -1137,7 +1137,7 @@ graph TD;
     G --> H;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef rectangle fill:#43BA43, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
@@ -1173,18 +1173,18 @@ Fi
  graph TD;
     A((Inici)) --> B[Inicialitzar Suma = 0, Comptador = 0]:::rectangle;
     B --> C[/Llegir N/]:::romboide;
-    C --> D{N <> 0}:::rombo;
+    C --> D{N <> 0}:::rombe;
     D -->|Sí| E[Suma = Suma + N]:::rectangle;
     E --> F[Comptador = Comptador + 1]:::rectangle;
     F --> C;
-    D -->|No| G{Comptador > 0}:::rombo;
+    D -->|No| G{Comptador > 0}:::rombe;
     G -->|Sí| H[Calcular Mitjana]:::rectangle;
     H --> I[/Escriure "Mitjana:", Mitjana/]:::romboide;
     G -->|No| J((Fi)):::inici_fi;
     I --> J;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef rectangle fill:#43BA43, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
@@ -1221,7 +1221,7 @@ Fi
 ```mermaid
 graph TD;
     A((Inici)) --> B[/Llegir 'Activar càlcul?'/]:::romboide;
-    B --> C{Càlcul = 'Sí'}:::rombo;
+    B --> C{Càlcul = 'Sí'}:::rombe;
     C -->|Sí| D[Mentre Contador < 5]:::rectangle;
     D --> E[/Llegir Valor/]:::romboide;
     E --> F[Suma = Suma + Valor]:::rectangle;
@@ -1234,7 +1234,7 @@ graph TD;
     J --> K((Fi)):::inici_fi;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef rectangle fill:#43BA43, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
@@ -1264,7 +1264,7 @@ Fi
 ```mermaid
  graph TD;
     A((Inici)) --> B[Inicialitzar TotalNomina, NombreObrers]:::rectangle;
-    B --> C{NombreObrers > 0}:::rombo;
+    B --> C{NombreObrers > 0}:::rombe;
     C -->|Sí| D[/Llegir HoresTreballades/]:::romboide;
     D --> E[Calcular Salari]:::rectangle;
     E --> F[Actualitzar TotalNomina]:::rectangle;
@@ -1274,7 +1274,7 @@ Fi
     H --> I((Fi)):::inici_fi;
 
     classDef romboide fill:#188CC4, color:white;
-    classDef rombo fill:#A08DB1, color:white;
+    classDef rombe fill:#A08DB1, color:white;
     classDef rectangle fill:#43BA43, color:white;
     classDef inici_fi fill:#ccc, color:#000;
 ```
