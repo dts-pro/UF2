@@ -5,10 +5,10 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 // https://vitepress.dev/reference/site-config
 export default withMermaid({
   lang: 'ca-ES',
-  title: 'UF2 - Representació d\'algoritmes',
+  title: 'UF2',
   description: 'Descripció',
   base: '/',
-  outDir: './dist',
+  outDir: '../docs',
   markdown: {
     config(md) {
       md.use(tabsMarkdownPlugin)
@@ -51,8 +51,8 @@ export default withMermaid({
           { text: '4. Estructures de control', link: '/4-estructures' },
           { text: '💡 Exemples', link: '/5-exemples' },
           { text: '✏️ Exercicis', link: '/6-enunciats' },
-          { text: '<img src="./img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
-          { text: '<img src="./img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
+          { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
+          { text: '<img src="img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
         ]
       }
     ],
