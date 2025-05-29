@@ -1,4 +1,4 @@
-# UF01. Fonaments de Programació
+# UF02. Representació d'algoritmes
 
 ::: tip Informació del curs
 **Professors:** Guillermo Garrido Portes / David Tur Sanmateu
