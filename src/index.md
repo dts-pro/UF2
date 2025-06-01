@@ -1,4 +1,4 @@
-# UF02. Representació d'algoritmes
+# UF02. Representació d'algoritmess
 
 ::: tip Informació del curs
 **Professors:** Guillermo Garrido Portes / David Tur Sanmateu
