@@ -286,11 +286,7 @@ graph TD;
 
 ### Exemple 4-2-3
 
-<<<<<<< HEAD:src/5-exemples.md
 **Enunciat**: Desenvolupeu un algorisme que permeta llegir dos valors diferents, determinar quin dels dos valors és el major i escriure'l.
-=======
-**Enunciat**: Desenvolupeu un algoritme que permeta llegir dos valors diferents, determinar quin dels dos valors és el major i escriure’l.
->>>>>>> 3964625140ef53ff86781ffe6848648185d08003:src/8-exemples.md
 
 ::: tabs
 == Pseudocodi
