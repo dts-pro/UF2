@@ -28,7 +28,8 @@ El Pseudocodi és una tècnica que permet substituir les instruccions d'un progr
 >:::tabs
 >
 >==Algoritme A
-> ```
+>
+> ```plaintext
 > INICI
 >   1. Escriure "Introdueix valor per a n".
 >   2. Llegir n.  
@@ -40,7 +41,7 @@ El Pseudocodi és una tècnica que permet substituir les instruccions d'un progr
 >
 >==Algoritme B
 >
-> ```
+> ```plaintext
 > INICI
 >   1. Escriure "Introdueix valor per a n".
 >   2. Llegir n.  
@@ -72,13 +73,8 @@ Els símbols bàsics que equivalen als elements d'un algoritme són els següent
 - **Planificació**: Ajuden a identificar possibles problemes o ineficiències abans de començar a codificar.
 - **Documentació**: Serveixen com a referència visual per al manteniment i millora del codi.
 
-
-> ***Exemple: Diagrama de flux de l'algoritme A***
->
-> En el següent exemple es pot veure l'algoritme A representat amb un diagrama de flux.
-> ![Imatge de diagrama de flux de l'algoritme A](/uf2/2.2.png)
-
 ::: tip Conceptes clau per recordar
+
 - **Pseudocodi**: Representació d'algoritmes en llenguatge natural.
 - **Diagrama de flux**: Representació gràfica d'algoritmes amb símbols.
 - **Símbols bàsics**: Línies, rectangles, paral·lelograms i rombes.
